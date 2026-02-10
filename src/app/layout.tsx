@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Book of Animals',
   description: 'Interactive 3D animal encyclopedia',
-  icons: { icon: '/images/wildcat.jpg', type: 'image/jpeg' },
+    icons: { icon: { url: '/images/wildcat.jpg', type: 'image/jpeg' } },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -14,3 +14,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
